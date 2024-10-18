@@ -30,7 +30,7 @@ This Python script allows you to download audio from YouTube videos and save the
 1. Open the `main.py` file.
 2. Add your desired YouTube video URLs to the `play_list` array.
 3. Run it.
-4. The script will download the audio from each video in the playlist and save it as an MP3 file in the `./'` directory (right here/code package) or change it where you desire.
+4. The script will download the audio from each video in the playlist and save it as an MP3 file in the `./mp3_files'` directory that will be created in this package or change it where you desire.
 
 ## Acknowledgements
 
