@@ -24,7 +24,7 @@ This Python script allows you to download audio from YouTube videos and save the
 
 1. Clone this repository or download the script.
 2. Install the required library
-3. 
+
 ## Usage
 
 1. Open the `main.py` file.
