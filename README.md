@@ -17,7 +17,7 @@ This Python script allows you to download audio from YouTube videos and save the
 
 ## Requirements
 
-- Python 3.x
+- Python 3.12
 - pytubefix library
 
 ## Installation
