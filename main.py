@@ -22,7 +22,7 @@ def download_from_yt(url, total):
         video = yt.streams.filter(only_audio=True).first()
 
         # destination to save file
-        destination = './mp3_files'
+        destination = './'
 
         # downloaded_files the file
         out_file = video.download(output_path=destination)
