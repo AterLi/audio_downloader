@@ -22,7 +22,7 @@ def download_from_yt(url, total):
         video = yt.streams.filter(only_audio=True).first()
 
         # destination to save file
-        destination = './downloaded_files'
+        destination = './mp3_files'
 
         # downloaded_files the file
         out_file = video.download(output_path=destination)
@@ -33,10 +33,10 @@ def download_from_yt(url, total):
         os.rename(out_file, new_file)
 
     # except UnboundLocalError:
-    # 	print("❌ downloaded_files failed", yt.title)
+    # 	print("❌ download failed", yt.title)
     except FileExistsError:
         downloaded_count += 1
-        print("❌ File already exists, pytube may try to downloaded_files in mp4 format if mp3 exists:", yt.title)
+        print("❌ File already exists, pytube may try to download in mp4 format if mp3 exists:", yt.title)
     except:
         print("❌ Something went wrong, maybe invalid link")
     else:
